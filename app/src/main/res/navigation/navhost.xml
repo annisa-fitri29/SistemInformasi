@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navhost"
+    app:startDestination="@id/viewPagerFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="id.ac.unhas.foodcashier.menufragment.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu">
+        <action
+            android:id="@+id/action_menuFragment_to_produkFragment"
+            app:destination="@id/produkFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_datapetugasFragment"
+            app:destination="@id/datapetugasFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_riwayattransaksiFragment"
+            app:destination="@id/riwayattransaksiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/produkFragment"
+        android:name="id.ac.unhas.foodcashier.produkfragment.ProdukFragment"
+        android:label="fragment_produk"
+        tools:layout="@layout/fragment_produk">
+        <action
+            android:id="@+id/action_produkFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_produkFragment_to_tambahProdukFragment"
+            app:destination="@id/tambahProdukFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/datapetugasFragment"
+        android:name="id.ac.unhas.foodcashier.datapetugasfragment.DatapetugasFragment"
+        android:label="fragment_datapetugas"
+        tools:layout="@layout/fragment_datapetugas">
+        <action
+            android:id="@+id/action_datapetugasFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_datapetugasFragment_to_tambahpetugasFragment"
+            app:destination="@id/tambahpetugasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/riwayattransaksiFragment"
+        android:name="id.ac.unhas.foodcashier.riwayattransaksifragment.RiwayattransaksiFragment"
+        android:label="fragment_riwayattransaksi"
+        tools:layout="@layout/fragment_riwayattransaksi" />
+    <fragment
+        android:id="@+id/tambahpetugasFragment"
+        android:name="id.ac.unhas.foodcashier.tambahpetugasfragment.TambahpetugasFragment"
+        android:label="fragment_tambahpetugas"
+        tools:layout="@layout/fragment_tambahpetugas" >
+        <action
+            android:id="@+id/action_tambahpetugasFragment_to_datapetugasFragment"
+            app:destination="@id/datapetugasFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="id.ac.unhas.foodcashier.loginfragment.viewpager.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tambahProdukFragment"
+        android:name="id.ac.unhas.foodcashier.produkfragment.TambahProdukFragment"
+        android:label="fragment_tambah_produk"
+        tools:layout="@layout/fragment_tambah_produk" >
+        <action
+            android:id="@+id/action_tambahProdukFragment_to_produkFragment"
+            app:destination="@id/produkFragment" />
+    </fragment>
+</navigation>

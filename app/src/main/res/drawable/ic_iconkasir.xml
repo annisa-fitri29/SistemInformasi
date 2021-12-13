@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="74dp"
+    android:height="77dp"
+    android:viewportWidth="74"
+    android:viewportHeight="77">
+  <group>
+    <clip-path
+        android:pathData="M0,0h74v77h-74z"/>
+    <group>
+      <clip-path
+          android:pathData="M1,1l73.0001,0l0,76.0001l-73.0001,0z"/>
+      <group>
+        <clip-path
+            android:pathData="M1,1l73.0003,0l0,76.0001l-73.0003,0z"/>
+      </group>
+    </group>
+  </group>
+</vector>
