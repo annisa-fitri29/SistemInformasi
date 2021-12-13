@@ -33,6 +33,18 @@ class MenuFragment : Fragment() {
             findNavController().navigate(toDataPetugas)
         }
 
+        binding.cardviewKasir.setOnClickListener {
+            val toKasir = MenuFragmentDirections.actionMenuFragmentToKasirFragment()
+
+            findNavController().navigate(toKasir)
+        }
+
+        binding.menuBackbtn.setOnClickListener {
+            val toLogin = MenuFragmentDirections.actionMenuFragmentToViewPagerFragment()
+
+            findNavController().navigate(toLogin)
+        }
+
         return binding.root
     }
 }

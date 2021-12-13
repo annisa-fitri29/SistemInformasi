@@ -77,7 +77,9 @@ class ProdukFragment : Fragment() {
                             openDialog.setTitle("Delete item?")
                             openDialog.setPositiveButton("DELETE"){
                                     dialog,_->
+
                                 produkArrayList[position].produk?.let { deleteData(it) }
+                                produkArrayList[position].harga
                                 adapter.notifyItemRemoved(position)
                                 adapter = MenuAdapter(produkArrayList)
                                 dialog.dismiss()

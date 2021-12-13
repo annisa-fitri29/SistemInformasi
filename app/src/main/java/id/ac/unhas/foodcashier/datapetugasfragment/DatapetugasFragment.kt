@@ -73,7 +73,6 @@ class DatapetugasFragment : Fragment() {
                                     dialog,_->
                                 userArrayList[position].nama?.let { deleteData(it) }
                                 adapter.notifyItemRemoved(position)
-                                adapter = PetugasAdapter(userArrayList)
                                 dialog.dismiss()
                             }
                             openDialog.setNegativeButton("cancel"){

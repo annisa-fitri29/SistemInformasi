@@ -102,7 +102,7 @@ class LoginFragment : Fragment() {
     }
 
     private fun moveToMenu(){
-        val tomenu = ViewPagerFragmentDirections.actionViewPagerFragmentToMenuFragment()
+        val tomenu = ViewPagerFragmentDirections.actionViewPagerFragmentToPetugasMenuFragment()
         findNavController().navigate(tomenu)
     }
 }

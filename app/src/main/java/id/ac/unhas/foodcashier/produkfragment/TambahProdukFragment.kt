@@ -24,6 +24,7 @@ import id.ac.unhas.foodcashier.databinding.FragmentProdukBinding
 import id.ac.unhas.foodcashier.databinding.FragmentTambahProdukBinding
 import id.ac.unhas.foodcashier.tambahpetugasfragment.Petugas
 import id.ac.unhas.foodcashier.tambahpetugasfragment.TambahpetugasFragmentDirections
+import java.text.DecimalFormat
 
 private lateinit var progressDialog: ProgressDialog
 
@@ -84,7 +85,7 @@ class TambahProdukFragment : Fragment() {
 
     private fun inserttoDatabase(imageURL: String?){
         var produk = binding.menuInput.text.toString()
-        var harga = binding.hargaInput.text.toString()
+        var harga = binding.hargaInput.text.toString().replace(".", "")
         var desc = binding.descInput.text.toString()
 
         database.child(produk).

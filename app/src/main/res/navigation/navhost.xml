@@ -19,6 +19,12 @@
         <action
             android:id="@+id/action_menuFragment_to_riwayattransaksiFragment"
             app:destination="@id/riwayattransaksiFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_kasirFragment"
+            app:destination="@id/kasirFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
     </fragment>
     <fragment
         android:id="@+id/produkFragment"
@@ -66,6 +72,9 @@
         <action
             android:id="@+id/action_viewPagerFragment_to_menuFragment"
             app:destination="@id/menuFragment" />
+        <action
+            android:id="@+id/action_viewPagerFragment_to_petugasMenuFragment"
+            app:destination="@id/petugasMenuFragment" />
     </fragment>
     <fragment
         android:id="@+id/tambahProdukFragment"
@@ -75,5 +84,26 @@
         <action
             android:id="@+id/action_tambahProdukFragment_to_produkFragment"
             app:destination="@id/produkFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kasirFragment"
+        android:name="id.ac.unhas.foodcashier.kasirfragment.KasirFragment"
+        android:label="fragment_kasir"
+        tools:layout="@layout/fragment_kasir" >
+        <action
+            android:id="@+id/action_kasirFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/petugasMenuFragment"
+        android:name="id.ac.unhas.foodcashier.menufragment.PetugasMenuFragment"
+        android:label="fragment_petugas_menu"
+        tools:layout="@layout/fragment_petugas_menu" >
+        <action
+            android:id="@+id/action_petugasMenuFragment_to_kasirFragment"
+            app:destination="@id/kasirFragment" />
+        <action
+            android:id="@+id/action_petugasMenuFragment_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
     </fragment>
 </navigation>

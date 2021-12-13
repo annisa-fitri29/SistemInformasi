@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/drawable/border.xml" value="0.1125" />
+        <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/drawable/bottomsheet_rounded.xml" value="0.17685185185185184" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/drawable/buttongradient.xml" value="0.17777777777777778" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/drawable/circle_floatingbtn.xml" value="0.19537037037037036" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/drawable/edittext.xml" value="0.1203125" />
@@ -17,18 +18,21 @@
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/drawable/transparen_bg.xml" value="0.16574074074074074" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/action_bar_layout.xml" value="0.67" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/activity_main.xml" value="0.19947916666666668" />
+        <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/bottomsheet_menu.xml" value="0.19202898550724637" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/datapetugas_item.xml" value="0.20416666666666666" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/fragment_datapetugas.xml" value="0.25" />
-        <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/fragment_kasir.xml" value="0.33" />
+        <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/fragment_kasir.xml" value="0.2" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/fragment_login.xml" value="0.25" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/fragment_login2.xml" value="0.20416666666666666" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/fragment_login_admin.xml" value="0.22" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/fragment_menu.xml" value="0.18" />
+        <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/fragment_petugas_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/fragment_produk.xml" value="0.22" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/fragment_riwayattransaksi.xml" value="0.20416666666666666" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/fragment_tambah_produk.xml" value="0.25" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/fragment_tambahpetugas.xml" value="0.21" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/fragment_view_pager.xml" value="0.17708333333333334" />
+        <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/kasir_item.xml" value="0.25" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/produk_item.xml" value="0.22" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/layout/riwayat_item.xml" value="0.4083333333333333" />
         <entry key="..\:/Sistem informasi/design tugas 1 kelompok/FoodCashier/app/src/main/res/xml/file_paths.xml" value="0.1" />
